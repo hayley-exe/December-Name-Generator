@@ -1,8 +1,9 @@
 body {
-  background-image: url(imgs/fantasy-bg.jpg);
+  background-image: url(imgs/statue.webp);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  color: white;
 }
 h1 {
   color: white;

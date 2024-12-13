@@ -53,10 +53,19 @@
                     <label for="favAnimal">Favorite Animal</label>
                     <input type="text" class="form-control" id="favAnimal" placeholder="Enter your favorite animal">
                 </div>
-                <button type="submit" class="btn btn-primary w-100" onclick="genFullName()">Generate Name</button>
+                <div class="div mb-3">
+                    <label for="genderType" class="form-label">Please Select Gender</label>
+                    <select id="genType" class="form-select">
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                    </select>
+                </div>
+                <div class="btn btn-primary w-100" onclick="genFullName()">Generate Name</div>
 
             </form>
+            <div id="result">
 
+            </div>
         </div>
 
 
